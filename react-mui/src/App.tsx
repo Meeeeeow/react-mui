@@ -2,6 +2,7 @@
 import React from 'react';
 
 import './App.css';
+import MuiAccordion from './Component/MuiAccordion';
 import MuiAutoComplete from './Component/MuiAutoComplete';
 import MuiButton from './Component/MuiButton';
 import MuiCard from './Component/MuiCard';
@@ -28,6 +29,7 @@ function App() {
       <MuiAutoComplete/>
       <MuiLayout/>
       <MuiCard/>
+      <MuiAccordion/>
     </div>
   );
 }
